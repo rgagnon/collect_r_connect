@@ -1,0 +1,35 @@
+#Sources 
+:sources: 
+  Form:
+    :poll_interval: 10
+  FormTemplate:
+    :poll_interval: 10
+  Media:
+    :poll_interval: 10
+  Section:
+    :poll_interval: 10
+  SectionTemplate:
+    :poll_interval: 10
+  SectionType:
+    :poll_interval: 10
+  Field:
+    :poll_interval: 10
+  FieldValue:
+    :poll_interval: 10
+  ResponseType:
+    :poll_interval: 10
+  PossibleValue:
+    :poll_interval: 10
+
+:test: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
+:development: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
+:production: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
